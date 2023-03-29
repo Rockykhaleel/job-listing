@@ -165,11 +165,6 @@ const MainPage = () => {
                         <input id="check-be" type="checkbox" name="check" />
                         <label for="check-be">Mid-Senior level4</label>
                       </li>
-                      <li>
-                        <button className="view-more">
-                          <span className="icon flaticon-plus"></span> View More
-                        </button>
-                      </li>
                     </ul>
                   </div>
 
@@ -193,42 +188,25 @@ const MainPage = () => {
                     <h4>Tags</h4>
                     <ul className="tags-style-one">
                       <li>
-                        <a href="#">app</a>
+                        <a href="/">app</a>
                       </li>
                       <li>
-                        <a href="#">administrative</a>
+                        <a href="/">administrative</a>
                       </li>
                       <li>
-                        <a href="#">android</a>
+                        <a href="/">android</a>
                       </li>
                       <li>
-                        <a href="#">wordpress</a>
+                        <a href="/">wordpress</a>
                       </li>
                       <li>
-                        <a href="#">design</a>
+                        <a href="/">design</a>
                       </li>
                       <li>
-                        <a href="#">react</a>
+                        <a href="/">react</a>
                       </li>
                     </ul>
                   </div>
-                </div>
-
-                <div className="call-to-action-four">
-                  <h5>Recruiting?</h5>
-                  <p>
-                    Advertise your jobs to millions of monthly users and search
-                    15.8 million CVs in our database.
-                  </p>
-                  <a href="#" className="theme-btn btn-style-one bg-blue">
-                    <span className="btn-title">Start Recruiting Now</span>
-                  </a>
-                  <div
-                    className="image"
-                    style={{
-                      backgroundImage: "url(images/resource/ads-bg-4.png)",
-                    }}
-                  ></div>
                 </div>
               </div>
             </div>
@@ -401,177 +379,7 @@ const MainPage = () => {
                     <div className="content">
                       <span className="company-logo">
                         <img
-                          src="images/resource/company-logo/1-4.png"
-                          alt=""
-                        />
-                      </span>
-                      <h4>
-                        <a href="#">Senior Product Designer</a>
-                      </h4>
-                      <ul className="job-info">
-                        <li>
-                          <span className="icon flaticon-briefcase"></span>{" "}
-                          Segment
-                        </li>
-                        <li>
-                          <span className="icon flaticon-map-locator"></span>{" "}
-                          London, UK
-                        </li>
-                        <li>
-                          <span className="icon flaticon-clock-3"></span> 11
-                          hours ago
-                        </li>
-                        <li>
-                          <span className="icon flaticon-money"></span> $35k -
-                          $45k
-                        </li>
-                      </ul>
-                      <ul className="job-other-info">
-                        <li className="time">Full Time</li>
-                        <li className="privacy">Private</li>
-                        <li className="required">Urgent</li>
-                      </ul>
-                      <button className="bookmark-btn">
-                        <span className="flaticon-bookmark"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="job-block">
-                  <div className="inner-box">
-                    <div className="content">
-                      <span className="company-logo">
-                        <img
-                          src="images/resource/company-logo/1-5.png"
-                          alt=""
-                        />
-                      </span>
-                      <h4>
-                        <a href="#">
-                          Senior Full Stack Engineer, Creator Success
-                        </a>
-                      </h4>
-                      <ul className="job-info">
-                        <li>
-                          <span className="icon flaticon-briefcase"></span>{" "}
-                          Segment
-                        </li>
-                        <li>
-                          <span className="icon flaticon-map-locator"></span>{" "}
-                          London, UK
-                        </li>
-                        <li>
-                          <span className="icon flaticon-clock-3"></span> 11
-                          hours ago
-                        </li>
-                        <li>
-                          <span className="icon flaticon-money"></span> $35k -
-                          $45k
-                        </li>
-                      </ul>
-                      <ul className="job-other-info">
-                        <li className="time">Full Time</li>
-                        <li className="privacy">Private</li>
-                        <li className="required">Urgent</li>
-                      </ul>
-                      <button className="bookmark-btn">
-                        <span className="flaticon-bookmark"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="job-block">
-                  <div className="inner-box">
-                    <div className="content">
-                      <span className="company-logo">
-                        <img
-                          src="images/resource/company-logo/1-6.png"
-                          alt=""
-                        />
-                      </span>
-                      <h4>
-                        <a href="#">Software Engineer (Android), Libraries</a>
-                      </h4>
-                      <ul className="job-info">
-                        <li>
-                          <span className="icon flaticon-briefcase"></span>{" "}
-                          Segment
-                        </li>
-                        <li>
-                          <span className="icon flaticon-map-locator"></span>{" "}
-                          London, UK
-                        </li>
-                        <li>
-                          <span className="icon flaticon-clock-3"></span> 11
-                          hours ago
-                        </li>
-                        <li>
-                          <span className="icon flaticon-money"></span> $35k -
-                          $45k
-                        </li>
-                      </ul>
-                      <ul className="job-other-info">
-                        <li className="time">Full Time</li>
-                        <li className="privacy">Private</li>
-                        <li className="required">Urgent</li>
-                      </ul>
-                      <button className="bookmark-btn">
-                        <span className="flaticon-bookmark"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="job-block">
-                  <div className="inner-box">
-                    <div className="content">
-                      <span className="company-logo">
-                        <img
-                          src="images/resource/company-logo/1-7.png"
-                          alt=""
-                        />
-                      </span>
-                      <h4>
-                        <a href="#">Software Engineer (Android), Libraries</a>
-                      </h4>
-                      <ul className="job-info">
-                        <li>
-                          <span className="icon flaticon-briefcase"></span>{" "}
-                          Segment
-                        </li>
-                        <li>
-                          <span className="icon flaticon-map-locator"></span>{" "}
-                          London, UK
-                        </li>
-                        <li>
-                          <span className="icon flaticon-clock-3"></span> 11
-                          hours ago
-                        </li>
-                        <li>
-                          <span className="icon flaticon-money"></span> $35k -
-                          $45k
-                        </li>
-                      </ul>
-                      <ul className="job-other-info">
-                        <li className="time">Full Time</li>
-                        <li className="privacy">Private</li>
-                        <li className="required">Urgent</li>
-                      </ul>
-                      <button className="bookmark-btn">
-                        <span className="flaticon-bookmark"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="job-block">
-                  <div className="inner-box">
-                    <div className="content">
-                      <span className="company-logo">
-                        <img
-                          src="images/resource/company-logo/1-8.png"
+                          src="images/resource/company-logo/1-2.png"
                           alt=""
                         />
                       </span>
@@ -606,98 +414,6 @@ const MainPage = () => {
                       </button>
                     </div>
                   </div>
-                </div>
-
-                <div className="job-block">
-                  <div className="inner-box">
-                    <div className="content">
-                      <span className="company-logo">
-                        <img
-                          src="images/resource/company-logo/1-9.png"
-                          alt=""
-                        />
-                      </span>
-                      <h4>
-                        <a href="#">Product Manager, Studio</a>
-                      </h4>
-                      <ul className="job-info">
-                        <li>
-                          <span className="icon flaticon-briefcase"></span>{" "}
-                          Segment
-                        </li>
-                        <li>
-                          <span className="icon flaticon-map-locator"></span>{" "}
-                          London, UK
-                        </li>
-                        <li>
-                          <span className="icon flaticon-clock-3"></span> 11
-                          hours ago
-                        </li>
-                        <li>
-                          <span className="icon flaticon-money"></span> $35k -
-                          $45k
-                        </li>
-                      </ul>
-                      <ul className="job-other-info">
-                        <li className="time">Full Time</li>
-                        <li className="privacy">Private</li>
-                        <li className="required">Urgent</li>
-                      </ul>
-                      <button className="bookmark-btn">
-                        <span className="flaticon-bookmark"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="job-block">
-                  <div className="inner-box">
-                    <div className="content">
-                      <span className="company-logo">
-                        <img
-                          src="images/resource/company-logo/1-1.png"
-                          alt=""
-                        />
-                      </span>
-                      <h4>
-                        <a href="#">Senior Product Designer</a>
-                      </h4>
-                      <ul className="job-info">
-                        <li>
-                          <span className="icon flaticon-briefcase"></span>{" "}
-                          Segment
-                        </li>
-                        <li>
-                          <span className="icon flaticon-map-locator"></span>{" "}
-                          London, UK
-                        </li>
-                        <li>
-                          <span className="icon flaticon-clock-3"></span> 11
-                          hours ago
-                        </li>
-                        <li>
-                          <span className="icon flaticon-money"></span> $35k -
-                          $45k
-                        </li>
-                      </ul>
-                      <ul className="job-other-info">
-                        <li className="time">Full Time</li>
-                        <li className="privacy">Private</li>
-                        <li className="required">Urgent</li>
-                      </ul>
-                      <button className="bookmark-btn">
-                        <span className="flaticon-bookmark"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="ls-show-more">
-                  <p>Showing 36 of 497 Jobs</p>
-                  <div className="bar">
-                    <span className="bar-inner" style={{ width: "40%" }}></span>
-                  </div>
-                  <button className="show-more">Show More</button>
                 </div>
               </div>
             </div>
